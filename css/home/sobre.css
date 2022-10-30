@@ -7,6 +7,8 @@
     gap: 20px;
     justify-content: center;
     height: 820px;
+    padding: 0 2%;
+    width: 100%;
 }
 
 .sobre-texto {
@@ -63,16 +65,20 @@
 }
 
 .sobre-texto .btn-sobre:hover {
-    object-position: 0.7;
+    opacity: 0.7;
 }
 
 .sobre-imagem {
     align-items: center;
     display: flex;
     flex: 2;
-    flex-wrap: wrap;
-    gap: 30px;
+    gap: 15px;
     justify-content: center;
+}
+
+.sobre-imagem .sobre-img {
+    height: 440px;
+    width: 345px;
 }
 
 @media screen and (max-width: 800px) {
@@ -83,5 +89,17 @@
 
     .sobre-texto {
         margin-bottom: 20px;
+    }
+
+    .sobre-imagem .sobre-img {
+        height: auto;
+        margin-bottom: 20px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sobre-imagem {
+        flex-wrap: wrap;
     }
 }

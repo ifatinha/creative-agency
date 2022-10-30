@@ -1,0 +1,113 @@
+.servicos {
+    display: flex;
+    width: 100%;
+}
+
+.servicos-bg,
+.servicos-info {
+    flex: 1;
+    height: 900px;
+}
+
+.servicos-bg {
+    background-image: url("../../assets/images/hero-bg39.jpg");
+    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/images/hero-bg39.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.servicos-info {
+    align-items: center;
+    background-color: rgba(242, 242, 242, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.info-texto {
+    padding: 87px;
+}
+
+.info-titulo {
+    padding: 15px;
+}
+
+.info-titulo h2 {
+    color: var(--black-02);
+    font-size: 2.187rem;
+    font-weight: 700;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 39px;
+    margin-bottom: 12px;
+}
+
+.info-titulo>p {
+    color: var(--gray-02);
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 28px;
+    margin-bottom: 22px;
+}
+
+.info-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-container .info-item {
+    flex: 1 0 250px;
+    padding: 15px;
+}
+
+.info-item .item-titulo {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.item-titulo i {
+    color: var(--yellow);
+    font-size: 2.187rem;
+}
+
+.info-item h3 {
+    color: var(--black-02);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.info-item p {
+    color: var(--gray-02);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+@media screen and (max-width: 800px) {
+    .servicos {
+        flex-direction: column;
+    }
+
+    .servicos-bg {
+        min-height: 400px;
+    }
+
+    .info-texto {
+        padding: 15px;
+    }
+
+    .info-titulo {
+        padding: 0;
+    }
+}
