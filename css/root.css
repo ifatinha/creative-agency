@@ -1,0 +1,10 @@
+/* Arquivos Genericos */
+@import "./util/minireset.min.css";
+@import "./util/generics.css";
+@import "./util/cores.css";
+@import "./util/tipografia.css";
+
+/* CSS Home */
+@import "./home/header.css";
+@import "./home/main.css";
+@import "./home/sobre.css";

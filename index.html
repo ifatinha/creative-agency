@@ -9,79 +9,90 @@
     <meta name="description" content="Landing page Creative Agency">
     <meta name="keywords" content="agency, creative, desing">
 
-    <link rel="stylesheet" href="css/minireset.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="assets/images/calcio.png" type="image/x-icon">
-    <title>Creative Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Agencia Criativa</title>
 </head>
 
 <body>
-    <main>
-        <header class="flex justify-content">
-            <div class="header__logo">
-                <h1>Lead<span>Gen</span></h1>
-            </div>
-            <nav class="flex justify-content nav-desktop">
-                <a href="#about" class="text-navbar">About us</a>
-                <a href="#services" class="text-navbar">Services</a>
-                <a href="#portfolio" class="text-navbar">Portfolio</a>
-                <a href="#team" class="text-navbar">Team</a>
-                <a href="#blog" class="text-navbar">Blog</a>
-                <a href="#contact" class="text-navbar">Contact</a>
-                <a href="" class="text-navbar btn-navbar">Start project</a>
-            </nav>
+    <header class="header">
+        <div class="header-logo">
+            <a href="./index.html"><img src="./assets/images/logo-white.png" alt="Logo LeadGen" width="163"
+                    height="40"></a>
+        </div>
+        <nav>
+            <ul class="header-menu-desktop">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="./" class="btn-navbar">Começar projeto</a></li>
+            </ul>
+        </nav>
 
-            <nav class="flex nav-mobile">
-                <div class="itens-menu">
-                    <a href="#about" class="text-navbar">About us</a>
-                    <a href="#services" class="text-navbar">Services</a>
-                    <a href="#portfolio" class="text-navbar">Portfolio</a>
-                    <a href="#team" class="text-navbar">Team</a>
-                    <a href="#blog" class="text-navbar">Blog</a>
-                    <a href="#contact" class="text-navbar">Contact</a>
-                    <a href="" class="text-navbar btn-navbar">Start project</a>
-                </div>
-            </nav>
-        </header>
+        <nav class="header-menu-mobile">
+            <ul class="itens-menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="./" class="btn-navbar">Começar projeto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div class="main-container">
-            <h2>Creative <br /> Agency</h2>
-            <p>Lorem Ipsum is simply dummy text of the typesetting industry. Lorem Ipsum has been industry's standard
-                dummy.
-            </p>
+    <main class="main">
+        <h1>Agência <br /> Criativa</h1>
+        <p>Lorem Ipsum is simply dummy text of the typesetting industry. Lorem Ipsum has been industry's standard
+            dummy.
+        </p>
 
-            <div class="main-container__btn">
-                <a href="" class="main-btn">Read more</a>
-                <a href="" class="main-btn">Portfolio</a>
-            </div>
+        <div class="main-btns">
+            <a href="./" class="btn-padrao btn-main uppercase">Detalhes</a>
+            <a href="./" class="btn-padrao btn-main uppercase">Portfolio</a>
+        </div>
+
+        <div class="btn-carrossel">
+            <a href="./" aria-label="Botão Slide"><span></span></a>
+            <a href="./" aria-label="Botão Slide"><span></span></a>
+            <a href="./" aria-label="Botão Slide"><span></span></a>
         </div>
     </main>
-    <section id="about">
-        <div class="content flex">
-            <div class="section-about__texts">
-                <h2>
-                    We believe in the <br>
-                    <span>power of great ideas.</span>
+    <section id="sobre" class="sobre">
+        <div class="container container-sobre">
+            <div class="sobre-texto">
+                <h2>Nos acreditamos <br>
+                    <span>no poder das grandes ideias.</span>
                 </h2>
-
-                <p class="texts-gray">
+                <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                     and scrambled it to make a type specimen book.
                 </p>
-
-                <a href="" class="about-btn">
-                    Continue reading
+                <a href="./" class="btn-padrao btn-sobre uppercase">
+                    Continue lendo
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
-
-            <div class="section-about__imgs section-about__divs flex">
-                <img src="assets/images/agency-work-09.jpg" alt="">
-                <img src="assets/images/agency-work-12.jpg" alt="">
+            <div class="sobre-imagem">
+                <img src="assets/images/agency-work-09.jpg" alt="Imagem de pessoas trabalhando" width="315"
+                    height="440">
+                <img src="assets/images/agency-work-12.jpg" alt="Imagem de uma sala com uma mesa e algumas cadeiras"
+                    width="315" height="440">
             </div>
         </div>
     </section>
+    <!-- 
     <section id="services">
         <div class="services-content flex">
             <div class="column-left column-width"></div>
@@ -421,7 +432,7 @@
                 <a href=""><i class="fa-brands fa-google"></i></a>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 <script src="https://kit.fontawesome.com/5ae928e303.js" crossorigin="anonymous"></script>

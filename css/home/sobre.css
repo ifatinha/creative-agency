@@ -1,0 +1,87 @@
+.sobre {
+    padding: 110px 2%;
+}
+
+.container-sobre {
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    height: 820px;
+}
+
+.sobre-texto {
+    flex: 1;
+    padding: 0 23px;
+}
+
+.sobre-texto h2 {
+    color: var(--black-02);
+    font-size: 2.187rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 40px;
+    margin-bottom: 23px;
+}
+
+.sobre-texto h2 span {
+    font-weight: 700;
+}
+
+.sobre-texto p {
+    color: var(--gray-02);
+    display: block;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+.sobre-texto .btn-sobre {
+    border: 2px solid var(--black-02);
+    color: var(--black-02);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 18px;
+    padding: 8px 25px;
+    text-align: center;
+    transition: .3s;
+}
+
+.sobre-texto .btn-sobre i {
+    color: var(--black-02);
+    display: inline-block;
+    font-size: 0.875rem;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 14px;
+    height: 14px;
+    margin: 1px 0 0 7px;
+    text-align: center;
+    vertical-align: baseline;
+    width: 14px;
+}
+
+.sobre-texto .btn-sobre:hover {
+    object-position: 0.7;
+}
+
+.sobre-imagem {
+    align-items: center;
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .container-sobre {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sobre-texto {
+        margin-bottom: 20px;
+    }
+}
