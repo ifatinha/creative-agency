@@ -103,6 +103,10 @@
         min-height: 400px;
     }
 
+    .servicos-info {
+        padding-top: 30px;
+    }
+
     .info-texto {
         padding: 15px;
     }
