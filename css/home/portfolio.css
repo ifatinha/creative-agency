@@ -1,10 +1,3 @@
-.portfolio {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
 .portfolio-galeria {
     display: flex;
     height: 620px;
