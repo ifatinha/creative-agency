@@ -60,6 +60,7 @@ a.btn-padrao:first-of-type {
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding: 110px 0;
     width: 100%;
 }
 
@@ -73,7 +74,7 @@ a.btn-padrao:first-of-type {
 
 .texto-secao {
     max-width: 1200px;
-    padding: 100px 4% 0;
+    padding: 0 4%;
     text-align: center;
     width: 100%;
 }
@@ -97,6 +98,10 @@ a.btn-padrao:first-of-type {
 }
 
 @media screen and (max-width: 800px) {
+
+    .secao{
+        padding: 20px 0;
+    }
 
     .texto-secao {
         padding: 50px 0;
