@@ -1,5 +1,4 @@
 :root {
-    /*Colors*/
     --black: #000000;
     --black-02: #282828;
     --dark-gray: #a6a6a6;
@@ -10,6 +9,8 @@
     --gray-04: #dcdcdc;
     --gray-05: #dedede;
     --gray-06: #848484;
+    --gray-07: #f6f6f6;
+    --gray-08: #919499;
     --yellow: #f5ab35;
     --light-gray: #d9d9d9;
     --white: #ffffff;

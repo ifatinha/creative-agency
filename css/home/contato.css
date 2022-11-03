@@ -1,0 +1,158 @@
+.contato {
+    padding: 110px 2%;
+}
+
+.contato-formulario,
+.contato-texto {
+    flex: 1 0 280px;
+}
+
+.contato-formulario {
+    background-color: var(--gray-07);
+    border-radius: 6px;
+    padding: 55px;
+}
+
+.contato-formulario h4 {
+    color: var(--black-02);
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 30px;
+    margin-bottom: 36px;
+}
+
+.contato-formulario .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario .formulario-item {
+    width: 100%;
+}
+
+.formulario .formulario-item input,
+.formulario .formulario-item textarea {
+    background-color: var(--white);
+    border: 1px solid rgba(0, 0, 0, .1);
+    color: var(--gray-02);
+    display: inline-block;
+    font-family: "Poppins", open-sans;
+    font-size: 0.875rem;
+    padding: 12px 20px;
+    outline: none;
+    transition: .3s;
+    width: 100%;
+}
+
+.formulario .formulario-item input:focus,
+.formulario .formulario-item textarea:focus {
+    border-color: var(--dark-gray);
+}
+
+.formulario-item .btn-formulario {
+    background-color: var(--yellow);
+    border: 1px solid var(--white);
+    color: var(--white);
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 8px 25px;
+    text-align: center;
+    transition: .3s;
+}
+
+.formulario-item .btn-formulario:hover {
+    opacity: 0.6;
+}
+
+.contato-texto {
+    padding: 30px 55px;
+}
+
+.contato-texto h3 {
+    color: var(--black-02);
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 35px;
+    margin-bottom: 22px;
+}
+
+.contato-texto>p {
+    color: var(--black-02);
+    font-size: 0.875rem;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.contato-texto>a {
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 18px;
+    margin-bottom: 48px;
+    padding: 8px 25px;
+    text-align: center;
+}
+
+.contato-texto>a i {
+    margin-left: 5px;
+    vertical-align: baseline;
+}
+
+.contato-texto>a:hover {
+    opacity: 0.6;
+}
+
+.contato-endereco {
+    border-top: 1px solid rgba(0, 0, 0, .12);
+    padding-top: 43px;
+}
+
+.contato-endereco h4 {
+    color: var(--black-02);
+    font-weight: 500;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 25px;
+    margin-bottom: 13px;
+}
+
+.contato-endereco address,
+.contato-endereco p {
+    color: var(--gray-02);
+    font-family: "Poppins", open-sans;
+    font-size: 0.875rem;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 24px;
+}
+
+.contato-endereco address {
+    margin-bottom: 22px;
+}
+
+.contato-endereco a {
+    color: var(--yellow);
+    font-family: "Poppins", open-sans;
+    font-size: 0.875rem;
+    letter-spacing: var(--espacamento-letras);
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .contato-formulario {
+        padding: 15px;
+    }
+
+    .contato-texto {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
