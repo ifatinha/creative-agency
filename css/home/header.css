@@ -56,7 +56,7 @@
 }
 
 .header-menu-mobile {
-    background-image: url("/assets/images/menu.png");
+    background-image: url("../../assets/images/menu.png");
     background-size: cover;
     background-position: center;
     cursor: pointer;
